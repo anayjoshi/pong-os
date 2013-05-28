@@ -1,1 +1,1 @@
-qemu -fda PongOS.flp
+qemu-system-i386 -fda PongOS.flp
