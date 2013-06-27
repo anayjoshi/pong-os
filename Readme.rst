@@ -10,8 +10,8 @@ How To
 
 To emulate PongOS without risking a pendrive, you need to install **qemu**. To emulate PongOS using qemu, run the following
 
-make emulate
-
+.. code-block::
+    make emulate
 
 .. Links
 
