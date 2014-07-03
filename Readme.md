@@ -25,6 +25,10 @@ $ dd if=PongOS.flp of=/dev/sdb
 
 The value of `of` depends on the device filename of your pendrive. Note that to build PongOS.flp, [nasm](http://www.nasm.us/) and [mkdosfs](http://en.wikipedia.org/wiki/Mkdosfs) are required to be installed on your laptop.
 
+## Rules
+
+The player plays against the computer. Note that the computer is always able to hit back the ball. The player wins if s/he is able to hit the ball 5 times. Else, the computer wins. The score is displayed in the center of the screen.
+
 ## Useful Links for toy OS development
 
 
@@ -35,5 +39,4 @@ The value of `of` depends on the device filename of your pendrive. Note that to 
 ## Snapshot
 
 ![Pong Working](/docs/img/pong-working.png?raw=true "Pong Working")
-![Pong Game Over](/docs/img/pong-game-over.png?raw=true "Pong Game Over")
 
