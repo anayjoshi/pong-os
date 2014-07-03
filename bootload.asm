@@ -1,5 +1,4 @@
 ; ==================================================================
-; The Editor Operating System bootloader
 ; This bootloader was borrowed from the MikeOS project. MikeOS had borrowed this bootloader from E Dehling.
 ; It scans the FAT12 floppy for KERNEL.BIN (the PongOS kernel), loads it and executes it.
 ; ==================================================================
