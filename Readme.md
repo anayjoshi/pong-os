@@ -4,14 +4,13 @@
 
 ## Installation
 
-To Download the source
+Download the source
 
 ```
 git clone http://github.com/anayjoshi/pong-os
-cd pong-os
 ```
 
-To emulate PongOS without risking a pendrive, you need to install **qemu**. To emulate PongOS using qemu, run the following 
+To emulate PongOS without risking a pendrive, you need to install [qemu](http://wiki.quemy.org/Main_Page). To emulate PongOS using qemu, run the following 
 
 ```
 $ sudo make emulate
@@ -20,7 +19,7 @@ To actually burn PongOS on a pendrive, you would need to execute a command which
 
 ```
 $ make PongOS.flp
-$ dd if=PongOS.flp of=/dev/sdb
+$ sudo dd if=PongOS.flp of=/dev/sdb
 ```
 
 The value of `of` depends on the device filename of your pendrive. Note that to build PongOS.flp, [nasm](http://www.nasm.us/) and [mkdosfs](http://en.wikipedia.org/wiki/Mkdosfs) are required to be installed on your laptop.
