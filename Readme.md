@@ -27,7 +27,7 @@ The value of `of` depends on the device filename of your pendrive. Note that to 
 
 ## Rules
 
-The player plays against the computer. Note that the computer is always able to hit back the ball. The player wins if s/he is able to hit the ball 5 times. Else, the computer wins. The score is displayed in the center of the screen.
+The player plays against the computer. The computer is always able to hit back the ball, so effectively, the player is simply playing against a wall. The player wins if s/he is able to hit the ball 5 consecutive times. The score is displayed in the center of the screen.
 
 ## Useful Links for toy OS development
 
