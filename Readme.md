@@ -31,3 +31,9 @@ The value of `of` depends on the device filename of your pendrive. Note that to 
 - [MikeOS](http://mikeos.berlios.de"): The inspiration behind PongOS
 - [Qemu](http://wiki.quemy.org/Main_Page): A very dependable emulation tool
 - [OS-Dev](http://wiki.osdev.org/‎): Excellent repository to get started with OS development
+
+## Snapshot
+
+![Pong Working](/docs/img/pong-working.png?raw=true "Pong Working")
+![Pong Game Over](/docs/img/pong-game-over.png?raw=true "Pong Game Over")
+
